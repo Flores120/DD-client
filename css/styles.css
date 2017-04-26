@@ -6,8 +6,9 @@ h1 {
    text-align: center;
 }
 ul {
+  margin-top: 50px;
 }
-.container {
+.page-container {
   width: 100%;
   margin: auto;
 }
@@ -20,6 +21,10 @@ ul {
   width: 100%;
   background:radial-gradient(ellipse at center, rgba(191,255,232,1) 0%, rgba(2,129,80,1) 100%);
   padding: 10px;
+}
+.content {
+  padding: 10px;
+  background-color: #99e5ae;
 }
 /*#cuffs {
   margin: auto;
