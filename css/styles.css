@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+h1 {
+   text-align: center;
+}
+ul {
+}
+.container {
+  width: 100%;
+  margin: auto;
+}
+.cuffs-container {
+  border: solid 3px green;
+  width: 80%;
+  margin: auto;
+}
+.content-cuffs {
+  width: 100%;
+  background:radial-gradient(ellipse at center, rgba(191,255,232,1) 0%, rgba(2,129,80,1) 100%);
+  padding: 10px;
+}
+/*#cuffs {
+  margin: auto;
+  width: 90%;
+  display: block;
+}*/
+#paul {
+  margin-top: 20px;
+  margin-left: 200px;
+}
+#couple {
+  float: right;
+}
