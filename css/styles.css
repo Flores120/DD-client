@@ -8,6 +8,9 @@ h1 {
 ul {
   margin-top: 50px;
 }
+li {
+  list-style: circle;
+}
 .page-container {
   width: 100%;
   margin: auto;
@@ -25,6 +28,24 @@ ul {
 .content {
   padding: 10px;
   background-color: #99e5ae;
+}
+.heart-container {
+  background: url('../img/heart-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 1em;
+}
+.heart-content {
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 500px;
+  margin-left: 40px;
+  padding: 10px;
+}
+.depressed-man {
+  background-color: #035535;
 }
 /*#cuffs {
   margin: auto;
