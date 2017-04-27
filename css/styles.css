@@ -148,17 +148,16 @@ p {
 }
 .praying-man-container {
   width: 100%;
-  overflow: auto;
   background-color: black;
+  display: flex;
+  justify-content: space-between;
 }
 .praying-man-content {
-  width: 50%;
   max-width: 600px;
   height: 250px;
   padding: 1em;
-  margin-right: 6%;
+  margin-right: 3%;
   margin-top: 1.3em;
-  float: right;
   background:radial-gradient(ellipse at center, rgba(191,255,232,1) 0%, rgba(2,129,80,1) 100%);
 }
 .hands-reading {
@@ -187,9 +186,12 @@ p {
   background-color: #035535;
   color: #769586;
 }
-.spoons {
-  margin-top: 10px;
+.spoons-container {
   width: 100%;
+}
+.spoons {
+  width: 100%;
+  margin-top: -180px;
   display: flex;
   justify-content: center;
 }
@@ -198,8 +200,7 @@ p {
 }
 .spoons-content {
   background:radial-gradient(ellipse at center, rgba(191,255,232,1) 0%, rgba(2,129,80,1) 100%);
-  height: 300px;
-  padding: 10px;
+  padding: 1em;
 }
 /*#bar-design {
   position: relative;
@@ -275,7 +276,7 @@ p {
   background: url('../img/praying-man.jpg');
   background-position: bottom;
   background-size: cover;
-  float: left;
+  /*float: left;*/
 }
 #hand-content {
   margin-left: 15px;
@@ -300,7 +301,7 @@ p {
 }
 #spoon-1 {
   position: relative;
-  left: 70px;
+  left: 57px;
   z-index: -1;
 }
 #spoon-2 {
@@ -310,22 +311,71 @@ p {
 #green-box {
   width: 100%;
   height: 210px;
-  position: absolute;
-  top: 5821px;
+  position: relative;
+  top: 65px;
   z-index: -2;
   background-color: #99e5ae;
 }
 /*#woman-celebrating {
   float: left;
 }*/
-@media screen and (max-width: 500px) {
-  .choices {
-    flex-direction: column;
+@media screen and (max-width: 700px) {
+  #spoon-1 {
+    display: none
+  }
+  #spoon-2 {
+    display: none;
   }
 }
-@media  screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   body {
     width: 100%;
     margin: auto;
+  }
+  img {
+    width: 100%
+  }
+  .style1-box-content {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    margin: 10px;
+  }
+  .heart-content {
+    width: 100%;
+    margin: 0;
+  }
+  .choices {
+    flex-direction: column;
+  }
+  .praying-man-container {
+    flex-direction: column;
+  }
+  .praying-man-content {
+    width: 100%;
+    max-width: none;
+    margin: none;
+  }
+  .woman-celebrating-1 {
+    width: 100%;
+  }
+  .woman-yelling {
+    flex-direction: column;
+  }
+  #praying-man {
+    width: 100%;
+    max-width: none;
+  }
+  #crying-woman {
+    width: 100%;
+  }
+  #empty-block {
+    display: none;
+  }
+  #blue {
+    flex-direction: column;
+  }
+  #why {
+    width: 100%;
   }
 }
