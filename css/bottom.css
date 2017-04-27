@@ -1,0 +1,43 @@
+/*Question and Answer Section*/
+.common-question{
+  background: #074E13;
+  margin: 30px auto;
+  padding: 0 5px;
+  padding-bottom: 10px;
+  padding-top: 3%;
+  width: 90%;
+  min-width: 400px;
+}
+
+.common-question-answer{
+  color: white;
+  border: solid black 2px;
+  margin: 0 15px 10px 15px;
+  padding: 0 15px;
+  padding-top: 0%;
+}
+
+.common-question-question{
+  color: white;
+  background-color: #1F1E1C;
+  width: 110%;
+  margin-left: -5%;
+  margin-bottom: 30px;
+  margin-top: -0.5%;
+  height: 10%;
+  padding: 1em 5em;
+  -moz-box-shadow: 0 0 50px #111;
+  -webkit-box-shadow: 0 0 50px #111;
+  box-shadow: 0 0 50px #111;
+}
+
+.common-question-question p{
+  font-weight: 700;
+  font-style: italic;
+}
+
+@media screen and (max-width: 400px) {
+  body{
+    max-width: 400px;
+  }
+}
