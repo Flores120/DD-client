@@ -46,12 +46,41 @@ li {
 }
 .depressed-man {
   background-color: #035535;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-/*#cuffs {
+.depressed-man-content {
+  width: 45%;
+  margin: 10px;
+  margin-right: 40px;
+  color: white;
+  border: solid 2px #99e5ae;
+  padding: 10px;
+}
+#ithappened {
+  width: 100%;
+  background-color: #0dbf7a;
+  padding: 10px;
+  position: relative;
+}
+#ithappened:before {
+  content:"";
+  position: absolute;
+  right: 80%;
+  top: 100%;
+  width: 30px;
+  height: 30px;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 50px solid #0dbf7a;
+}
+}
+#cuffs {
   margin: auto;
-  width: 90%;
+  width: 100%;
   display: block;
-}*/
+}
 #paul {
   margin-top: 20px;
   margin-left: 200px;
