@@ -16,14 +16,26 @@ li {
   margin: auto;
 }
 .cuffs-container {
-  border: solid 3px green;
+  border: solid 4px #028150;
   width: 80%;
   margin: auto;
+  margin-bottom: 15px;
 }
-.content-cuffs {
+.cuffs-container img {
+  width: 80%;
+  max-width: 400px;
+  display: block;
+  margin: auto;
+}
+.content-cuffs-container {
   width: 100%;
   background:radial-gradient(ellipse at center, rgba(191,255,232,1) 0%, rgba(2,129,80,1) 100%);
   padding: 10px;
+}
+.content-cuffs {
+  width: 85%;
+  margin: auto;
+  font-weight: 500;
 }
 .content {
   padding: 10px;
@@ -58,6 +70,43 @@ li {
   border: solid 2px #99e5ae;
   padding: 10px;
 }
+.man-cuffs-content {
+  margin: 2em;
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.man-cuffs img {
+  display: block;
+  margin: auto;
+}
+.choices {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: url('../img/green-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.choices span {
+  width: 400px;
+}
+.choices:before {
+  content:"";
+  position: absolute;
+  left: 80%;
+  top: 100%;
+  width: 30px;
+  height: 30px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 40px solid #023b25;
+}
 #ithappened {
   width: 100%;
   background-color: #0dbf7a;
@@ -71,10 +120,9 @@ li {
   top: 100%;
   width: 30px;
   height: 30px;
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
-  border-top: 50px solid #0dbf7a;
-}
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 40px solid #0dbf7a;
 }
 #cuffs {
   margin: auto;
@@ -82,9 +130,34 @@ li {
   display: block;
 }
 #paul {
-  margin-top: 20px;
+  display: block;
+  font-size: 20px;
+  margin: 20px;
   margin-left: 200px;
 }
 #couple {
   float: right;
+}
+#choiceA {
+  width: 350px;
+  height: 250px;
+  border-radius: 20px;
+  border: solid 3px #329c73;
+  display: flex;
+  justify-content: center;
+  box-shadow: 7px 5px 20px 0px black;
+  background: url('../img/driving.jpg');
+  background-position: center;
+  background-size: cover;
+}
+#choiceB {
+  width: 350px;
+  height: 250px;
+  border-radius: 20px;
+  border: solid 3px #329c73;
+  margin: auto;
+  box-shadow: 7px 5px 20px 0px black;
+  background: url('../img/depressed-man-3.png');
+  background-position: center;
+  background-size: cover;
 }
