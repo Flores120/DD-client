@@ -87,8 +87,9 @@ p {
 }
 .choices {
   position: relative;
+  padding: 1.3em;
   width: 100%;
-  height: 400px;
+  height: 100%;
   background: url('../img/green-bg.jpg');
   background-position: center;
   background-size: cover;
@@ -120,6 +121,20 @@ p {
   width: 85%;
   margin: auto;
   padding: 1.5em;
+}
+.bar-design-container {
+  background-color: #13886e;
+}
+.bar-design-content {
+  position: relative;
+  top: 0;
+  z-index: 2;
+}
+#bar-design {
+  position: relative;
+  top: 0;
+  opacity: .4;
+  width: 100%;
 }
 #ithappened {
   width: 100%;
@@ -153,10 +168,11 @@ p {
   float: right;
 }
 #choiceA {
-  width: 350px;
-  height: 250px;
+  width: 80%;
+  height: 200px;
   border-radius: 20px;
   border: solid 3px #329c73;
+  margin: auto;
   display: flex;
   justify-content: center;
   box-shadow: 7px 5px 20px 0px black;
@@ -165,8 +181,8 @@ p {
   background-size: cover;
 }
 #choiceB {
-  width: 350px;
-  height: 250px;
+  width: 80%;
+  height: 200px;
   border-radius: 20px;
   border: solid 3px #329c73;
   margin: auto;
@@ -174,4 +190,9 @@ p {
   background: url('../img/depressed-man-3.png');
   background-position: center;
   background-size: cover;
+}
+@media screen and (max-width: 500px) {
+  .choices {
+    flex-direction: column;
+  }
 }
