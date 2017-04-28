@@ -58,8 +58,8 @@ p {
 }
 .style1-box {
   background-color: #035535;
-  display: flex;
-  justify-content: space-between;
+  -webkit-display: flex;
+  -webkit-justify-content: space-between;
 }
 .style1-box img {
   width: 50%;
@@ -467,7 +467,7 @@ p {
     margin: 0;
   }
   .style1-box {
-    flex-direction: column;
+    -webkit-flex-direction: column;
   }
   .style1-box img {
     width: 100%;
