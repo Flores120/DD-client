@@ -1,14 +1,19 @@
+section{
+  max-width: 1024px;
+  margin: 0 auto;
+}
 /*Still here area*/
 .still-here{
-  margin: 0 5%;
+  margin: 1em 5%;
 }
 
-.still-here-image{
-
+.still-here-image img{
+  display: block;
+  margin: auto;
 }
 
 .still-here-text{
-
+  margin-top: 1em;
 }
 /*Question and Answer Section*/
 .common-question{
