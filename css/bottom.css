@@ -2,16 +2,8 @@ section{
   max-width: 1024px;
   margin: 0 auto;
 }
-/*section5.html*/
-.image-center{
-  margin: 25px auto;
-}
-/*guarantee section*/
-.guarantee-center{
-  text-align: center;
-}
 
-/*testimonial section*/
+/*section4.html*/
 .testimonial{
   background-color: #DAE616;
   margin: 20px 0;
@@ -27,6 +19,91 @@ section{
   font-style: italic;
   font-weight: 600;
 }
+/*bubble-text section*/
+.bubble-text{
+
+}
+
+.bubble-1{
+  margin: 1em auto;
+}
+
+.bubble-1 p{
+  display: inline;
+  border: solid #035535 3px;
+  border-radius: 5px;
+  padding: 2em;
+}
+
+.bubble-1 img {
+  border: solid #035535 3px;
+  border-radius: 50%;
+  display: inline;
+  margin-left: -25px;
+}
+
+.bubble-2{
+  margin: 1em 5%;
+}
+
+.bubble-2 p{
+  display: inline;
+  border-top: solid #035535 3px;
+  border-bottom: solid #035535 3px;
+  border-right: solid #035535 3px;
+  border-radius: 5px;
+  padding: 2em;
+}
+
+.bubble-2 img {
+  border: solid #035535 3px;
+  border-radius: 50%;
+  display: inline;
+  margin-right: -19px;
+}
+
+.testimonial-customer{
+  margin-top: 7em;
+}
+
+.testimonial-image-text{
+  margin-top: 0;
+}
+
+.look-inside{
+  background-image: url("../img/womansleeping.jpg");
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+}
+.look-inside-border{
+  width: 56%;
+  margin-left: 44%;
+  background-color: #035535;
+  padding: 2em 1.5em;
+}
+
+.look-inside-text{
+  border: solid #08B16F 2px;
+  padding: 1.5em 1.5em;
+  color: white;
+  border-radius: 5px;
+}
+
+/*section4.html end*/
+
+
+
+/*section5.html*/
+.image-center{
+  margin: 25px auto;
+}
+/*guarantee section*/
+.guarantee-center{
+  text-align: center;
+}
+
+/*testimonial section*/
+
 
 /*simple-area section*/
 .simple-area{
