@@ -16,6 +16,7 @@ p {
 }
 .page-container {
   width: 100%;
+  max-width: 1024px;
   margin: auto;
 }
 .cuffs-container {
@@ -136,12 +137,12 @@ p {
   border: solid 2px lightgreen;
   padding: 10px;
 }
-.crying-woman-container {
+.style2-box-container {
   background-color: #05432c;
   overflow: auto;
   width: 100%;
 }
-.crying-woman-content {
+.style2-box {
   color: white;
   padding: 2em;
   float: left;
@@ -201,6 +202,34 @@ p {
 .spoons-content {
   background:radial-gradient(ellipse at center, rgba(191,255,232,1) 0%, rgba(2,129,80,1) 100%);
   padding: 1em;
+}
+.man-surprised {
+  margin-top: 10px;
+  padding: 1em;
+}
+.green-design-bg {
+  width: 100%;
+  background: url('../img/green-design-2.png');
+}
+.green-design-content {
+  width: 80%;
+  padding: 1em;
+  margin: auto;
+}
+.frustrated-man {
+  width: 100%;
+  height: 600px;
+  background: url('../img/frustrated-man.png');
+  background-position: center;
+  background-size: cover;
+}
+.frustrated-man-content {
+  width: 50%;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, .6);
+  float: right;
+  margin-top:40px;
+  margin-right: 30px;
 }
 /*#bar-design {
   position: relative;
@@ -276,7 +305,6 @@ p {
   background: url('../img/praying-man.jpg');
   background-position: bottom;
   background-size: cover;
-  /*float: left;*/
 }
 #hand-content {
   margin-left: 15px;
@@ -316,6 +344,12 @@ p {
   z-index: -2;
   background-color: #99e5ae;
 }
+#dougnut {
+  margin-top: -2em;
+  margin-right: -2em;
+  float: right;
+  width: 300px;
+}
 /*#woman-celebrating {
   float: left;
 }*/
@@ -327,9 +361,10 @@ p {
     display: none;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   body {
     width: 100%;
+    max-width: 500px;
     margin: auto;
   }
   img {
@@ -360,6 +395,12 @@ p {
     width: 100%;
   }
   .woman-yelling {
+    flex-direction: column;
+  }
+  .man-content {
+    width: 100%;
+  }
+  .man-surprised {
     flex-direction: column;
   }
   #praying-man {
