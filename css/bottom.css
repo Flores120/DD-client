@@ -2,6 +2,97 @@ section{
   max-width: 1024px;
   margin: 0 auto;
 }
+/*section5.html*/
+.image-center{
+  margin: 25px auto;
+}
+/*guarantee section*/
+.guarantee-center{
+  text-align: center;
+}
+
+/*testimonial section*/
+.testimonial{
+  background-color: #DAE616;
+  margin: 20px 0;
+  padding: 1em;
+  border: solid 2px black;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 25px #111;
+  -webkit-box-shadow: 0 0 25px #111;
+  box-shadow: 0 0 25px #111;
+}
+
+.testimonial p{
+  font-style: italic;
+  font-weight: 600;
+}
+
+/*simple-area section*/
+.simple-area{
+  background-image: url("../img/simplegreen.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  padding: 1% 10%;
+}
+
+/*vision-answer section*/
+.vision-answer{
+  padding: 1em;
+}
+
+.vision-answer-border{
+  border: solid 3px #035535;
+  border-radius: 20px;
+  padding: 1em 2em;
+}
+
+.girl-pointing{
+  height: 100%;
+  margin-top: 20%;
+}
+
+/*guarantee-2 section*/
+.guarantee-2{
+  margin-top: -15px;
+}
+
+/*lowered-price section*/
+.lowered-price{
+  background-image: url("../img/coolkids.jpg");
+  background-repeat: no-repeat;
+  background-size: 80% 100%;
+}
+.lowered-price-border{
+  width: 56%;
+  margin-left: 44%;
+  background-color: #1E8D62;
+  padding: 2em 1.5em;
+}
+
+.lowered-price-text{
+  border: solid #0B3122 2px;
+  padding: 1.5em 1.5em;
+  color: white;
+  border-radius: 5px;
+}
+
+/*smart-thing section*/
+.smart-thing{
+  background-image: url("../img/simpleareabg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  padding: 1% 10%;
+}
+/*end of section5.html*/
+
+
+
+
+
+/*Bottom.html section*/
 /*Still here area*/
 .still-here{
   margin: 1em 5%;
