@@ -254,8 +254,8 @@ p {
 }
 .green-bg-3 {
   width: 100%;
+  height: 200px;
   background-image: url('../img/green-bg-3.jpg');
-  position: relative;
   padding: .5em;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -285,6 +285,9 @@ p {
   padding: 1em;
   margin: 10px auto;
   background-color: #e3e9e4;
+}
+.choices-container {
+  /*position: relative;*/
 }
 /*#bar-design {
   position: relative;
@@ -419,6 +422,17 @@ p {
   height: 179px;
   z-index: 1;
   background: rgba(0, 0, 0, .7);
+}
+#choice1 img{
+  width: 500px;
+}
+#choice2 {
+  position: relative;
+  top: -17px;
+  left: 517px;
+}
+#choice2 img{
+  width: 500px;
 }
 /*#woman-celebrating {
   float: left;
