@@ -429,18 +429,6 @@ section{
   font-style: italic;
 }
 
-@media screen and (max-width: 320px) {
-  .second-bubble-text p{
-    margin-left: 7em;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  body{
-    max-width: 400px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .mobile-margin-fix{
     margin-top: -3em;
@@ -548,5 +536,43 @@ section{
   }
   .second-bubble-text p{
     margin: 0 auto;
+  }
+  .gym-text-border {
+    padding: 3em 4.5em;
+  }
+  .order-below{
+    margin-top: 3em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .gym-text-border {
+    padding: 3em 3em;
+  }
+  .insomnia-book {
+    margin: 1% auto;
+    width: 75%;
+  }
+  .headache-book {
+    margin: 1% auto;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body{
+    max-width: 400px;
+  }
+  .gym-text-border {
+    padding: 2em 2em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #sex-drive {
+    height: 6em;
+  }
+  .gym-text-border {
+    padding: 1em 1em;
   }
 }
