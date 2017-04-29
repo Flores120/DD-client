@@ -138,14 +138,6 @@ section{
   margin-left: 4em;
 }
 
-/*.b-two{
-  margin-left: 18%;
-}
-
-.b-three{
-  margin-left: 18%;
-}*/
-
 .testimonial-customer{
   margin-top: 7em;
 }
@@ -244,8 +236,8 @@ section{
   margin-bottom: 5%;
 }
 
-.book-description-head{
-  margin-bottom: 17%;
+.book-description-head {
+    margin-bottom: 15%;
 }
 
 .price-tag{
