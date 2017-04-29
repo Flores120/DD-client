@@ -43,7 +43,7 @@ section{
 }
 
 .bubble-2{
-  margin: 1em 5%;
+  margin: 1em auto;
 }
 
 .bubble-2 p{
@@ -62,12 +62,24 @@ section{
   margin-right: -19px;
 }
 
+/*.b-two{
+  margin-left: 18%;
+}
+
+.b-three{
+  margin-left: 18%;
+}*/
+
 .testimonial-customer{
   margin-top: 7em;
 }
 
 .testimonial-image-text{
   margin-top: 0;
+}
+
+.guy-image{
+  z-index: -1;
 }
 
 .look-inside{
@@ -89,6 +101,115 @@ section{
   border-radius: 5px;
 }
 
+.secret-cycle{
+  height: 10%;
+}
+
+.make-life-easier{
+  background-image: url("../img/softgreenbg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  padding: 1% 10%;
+}
+
+.scale{
+  margin: 1.5em 0;
+}
+
+.scale-image img{
+  margin-top: 10%;
+}
+
+.scale-full-width-text{
+  margin: 1.5em 0;
+}
+
+.insomnia-book{
+  border: solid #0E5C3E 2px;
+  border-radius: 5px;
+  width: 49%;
+  margin-left: 1%;
+}
+
+.headache-book{
+  border: solid #0E5C3E 2px;
+  border-radius: 5px;
+  width: 49%;
+  margin-left: 1%;
+
+}
+
+.book-image{
+  padding-top: 3%;
+}
+
+.book-image img{
+  margin: 0 auto;
+}
+
+.book-description{
+  margin-top: -15%;
+  margin-bottom: 5%;
+}
+
+.book-description-head{
+  margin-bottom: 17%;
+}
+
+.price-tag{
+  background-image: url("../img/green-bg-6.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 1% 10%;
+}
+
+.gym-membership{
+  height: 350px;
+  background-image: url("../img/gymbuddies.jpg");
+  background-repeat: repeat-x;
+  background-size: 50% 100%;
+}
+
+.gym-text{
+  height: 100%;
+  background-color: #11724C;
+  width: 50%;
+  padding: 2em 3.5em;
+}
+
+.gym-text-border{
+  border: solid #6CC8A4 3px;
+  border-radius: 5px;
+  color: white;
+  padding: 4.5em 3.5em;
+}
+
+.one-payment{
+  background-color: #06452D;
+  color: white;
+  position: relative;
+}
+
+.one-payment:before{
+  content:"";
+  position: absolute;
+  left: 20%;
+  top: 99%;
+  width: 30px;
+  height: 30px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 40px solid #06452D;
+}
+
+.one-payment h1{
+  padding: 10px 0;
+}
+
+.order-below p{
+  text-align: center;
+}
 /*section4.html end*/
 
 
