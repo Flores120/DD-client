@@ -58,8 +58,7 @@ p {
 }
 .style1-box {
   background-color: #035535;
-  -webkit-display: flex;
-  -webkit-justify-content: space-between;
+  display: flex;
 }
 .style1-box img {
   width: 50%;
@@ -119,6 +118,7 @@ p {
   width: 85%;
   margin: auto;
   padding: 1.5em;
+  text-shadow: 1px 1px 20px black;
 }
 .bar-design-container {
   background: url('../img/bar-design-bg-2.jpg');
@@ -467,7 +467,7 @@ p {
     margin: 0;
   }
   .style1-box {
-    -webkit-flex-direction: column;
+    display: block;
   }
   .style1-box img {
     width: 100%;
