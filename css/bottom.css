@@ -314,6 +314,14 @@ section{
   text-align: center;
 }
 
+.pad-text p{
+  padding: 0 10%;
+}
+
+#pad-test{
+  margin: 20px 10%;
+}
+
 /*testimonial section*/
 
 
@@ -479,6 +487,13 @@ section{
   .one-payment:before{
     left: 15%;
   }
+  .girl-pointing{
+    display: none;
+  }
+  .lowered-price {
+    background-position-x: 115%;
+    background-size: 120% 100%;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -511,6 +526,13 @@ section{
   }
   .one-payment:before{
     left: 5%;
+  }
+  .lowered-price {
+    background-image: none;
+  }
+  .lowered-price-border {
+    width: 100%;
+    margin-left: 0;
   }
 }
 
