@@ -425,8 +425,8 @@ section{
 .common-question-question{
   color: white;
   background-color: #1F1E1C;
-  width: 110%;
-  margin-left: -5%;
+  width: 112%;
+  margin-left: -6%;
   margin-bottom: 30px;
   margin-top: -0.5%;
   height: 10%;
@@ -494,6 +494,10 @@ section{
     background-position-x: 115%;
     background-size: 120% 100%;
   }
+  .common-question-question{
+    width: 115%;
+    margin-left: -7.5%;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -534,6 +538,10 @@ section{
     width: 100%;
     margin-left: 0;
   }
+  .common-question-question{
+    width: 118%;
+    margin-left: -9%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -548,6 +556,10 @@ section{
   }
   .testimonial-customer{
     margin: 0px 15%;
+  }
+  .common-question-question{
+    width: 120%;
+    margin-left: -10%;
   }
 }
 
@@ -572,6 +584,10 @@ section{
   }
   .order-below{
     margin-top: 3em;
+  }
+  .common-question-question{
+    width: 121%;
+    margin-left: -10.5%;
   }
 }
 
