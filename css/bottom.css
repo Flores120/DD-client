@@ -134,6 +134,10 @@ section{
   margin-right: -19px;
 }
 
+#move-guy-pointing{
+  margin-left: 4em;
+}
+
 /*.b-two{
   margin-left: 18%;
 }
@@ -212,11 +216,11 @@ section{
   margin: 1.5em 0;
 }
 
-.insomnia-book{
+.insomnia-book {
   border: solid #0E5C3E 2px;
   border-radius: 5px;
-  width: 49%;
-  margin-left: 1%;
+  width: 46%;
+  margin-left: 2%;
 }
 
 .headache-book{
@@ -436,6 +440,9 @@ section{
   .second-bubble-text p{
     margin-left: 7em;
   }
+  #move-guy-pointing {
+    margin-left: 0em;
+  }
   .guy-image{
     margin-top: 4.1em;
   }
@@ -453,6 +460,7 @@ section{
   }
   .insomnia-book{
     margin: 1% auto;
+    width: 49%
   }
   .headache-book{
     margin: 0 auto;
