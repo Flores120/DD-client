@@ -3,6 +3,68 @@ section{
   margin: 0 auto;
 }
 
+.bubble-container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.first-bubble{
+  margin: 25px 0;
+  margin-left: 20%;
+}
+
+.frst-bubble-text{
+  border: solid #035535 3px;
+  max-width: 65%;
+  padding: 3%;
+  display: inline-block;
+}
+
+.bubble-text{
+  width: 70%
+}
+
+.first-bubble-image{
+  display: inline;
+}
+
+.first-bubble-image img{
+  border: solid #035535 3px;
+  border-radius: 50%;
+  display: inline;
+  margin-left: -8em;
+}
+
+.second-bubble{
+  margin: 25px 0;
+  margin-left: 20%;
+}
+
+.second-bubble-text{
+  outline: solid #035535 3px;
+  max-width: 65%;
+  padding: 3%;
+  display: inline-block;
+  z-index: -1;
+}
+
+.second-bubble-text p{
+  margin-left: 8em;
+}
+
+.second-bubble-image{
+  display: inline;
+  position: relative;
+}
+
+.second-bubble-image img{
+  border: solid #035535 3px;
+  border-radius: 50%;
+  display: inline;
+  margin-right: -8em;
+  z-index: 1;
+}
+
 /*section4.html*/
 .testimonial{
   background-color: #DAE616;
@@ -18,6 +80,10 @@ section{
 .testimonial p{
   font-style: italic;
   font-weight: 600;
+}
+
+.testimonial-margin{
+  margin: 15px 0;
 }
 /*bubble-text section*/
 .bubble-text{
