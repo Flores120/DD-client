@@ -432,10 +432,21 @@ section{
   font-weight: 700;
   font-style: italic;
 }
+@media screen and (max-width: 1199px) {
+  .fix-lady{
+    width: 50%;
+  }
+  .book-description-head {
+    margin-bottom: 20%;
+  }
+  .gym-text-border {
+    padding: 3em 3.5em;
+  }
+}
 @media screen and (max-width: 1024px) {
   #choice2 {
     left: 440px;
-}
+  }
 }
 @media screen and (max-width: 991px) {
   .woman-responsive-fix img{

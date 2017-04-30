@@ -18,7 +18,15 @@ li {
 p {
   font-size: 18px;
 }
-
+.black p{
+  color: black;
+}
+.peace-fix{
+  width: 60%
+}
+.underscore{
+  text-decoration: underline;
+}
 .cuffs-container {
   border: solid 4px #028150;
   width: 80%;
@@ -125,7 +133,6 @@ p {
   width: 85%;
   margin: auto;
   padding: 1.5em;
-  text-shadow: 1px 1px 20px black;
 }
 .plain-white-container img{
   margin-left: 10%;
@@ -419,9 +426,10 @@ span.glyphicon-ok{
 }
 #why {
   font-size: 32px;
-    width: 75%;
-    text-align: center;
-    margin: auto;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  color: white;
 }
 #spoon-1 {
   position: relative;
@@ -463,11 +471,12 @@ span.glyphicon-ok{
 }
 #choice1 img{
   width: 500px;
+  margin-left: 5%;
 }
 #choice2 {
   position: relative;
   top: -17px;
-  left: 517px;
+  left: 555px;
 }
 #choice2 img{
   width: 500px;
