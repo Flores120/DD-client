@@ -432,10 +432,40 @@ section{
   font-weight: 700;
   font-style: italic;
 }
-
+@media screen and (max-width: 1024px) {
+  #choice2 {
+    left: 440px;
+}
+}
+@media screen and (max-width: 991px) {
+  .woman-responsive-fix img{
+    width: 350px;
+    height: 375px;
+    margin-top: 5%;
+  }
+}
 @media screen and (max-width: 768px) {
   .mobile-margin-fix{
     margin-top: -3em;
+  }
+  .frustrated-man-content{
+    width: 70%;
+  }
+  #choice2 {
+    top: -15px;
+    left: 220px;
+  }
+  .woman-yelling img{
+  display: none;
+  }
+  .man-surprised div img{
+    display: none;
+  }
+  .fix-at-mobile {
+    width: 100%;
+  }
+  .green-bg-3{
+    height: 300px;
   }
   .second-bubble-text p{
     margin-left: 7em;
@@ -491,8 +521,40 @@ section{
     margin-left: -7.5%;
   }
 }
-
+@media screen and (max-width: 767px) {
+  .img-fix-mobile{
+    margin-left: 20%;
+  }
+}
 @media screen and (max-width: 640px) {
+  .style1-box img {
+    display: none;
+  }
+  .style1-box-content{
+    width: 100%;
+  }
+  .img-fix-mobile{
+    margin-left: 10%;
+  }
+  #empty-block {
+    display: none;
+  }
+  .frustrated-man-content {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #choice2 {
+    left: 100px;
+  }
+  .boss-man-container img{
+    display: none;
+  }
+  .boss-man-content{
+    width: 100%;
+  }
+  .green-bg-3 {
+    height: 400px;
+  }
   .second-bubble-text p{
     margin-left: 6em;
   }
@@ -540,6 +602,12 @@ section{
   #jumping-margin-fix{
     margin-bottom: 3em;
   }
+  .choices-container{
+    padding: 0 5%;
+  }
+  #choice2 {
+    left: 0px;
+  }
   .second-bubble-text p {
     margin-left: 5.5em;
   }
@@ -554,8 +622,21 @@ section{
     margin-left: -10%;
   }
 }
-
 @media screen and (max-width: 500px) {
+  .plain-white-container img {
+    margin-left: 0%;
+  }
+  .img-fix-mobile {
+    margin-left: 0%;
+  }
+  .girl-thinking-container {
+    height: 400px;
+    padding: 0;
+  }
+  #paul{
+    text-align: center;
+    margin-left: 0;
+  }
   #sex-drive{
     height: 4em;
   }
@@ -584,6 +665,9 @@ section{
 }
 
 @media screen and (max-width: 425px) {
+  .green-bg-3 {
+    height: 500px;
+  }
   .gym-text-border {
     padding: 3em 3em;
   }
@@ -601,8 +685,21 @@ section{
   body{
     max-width: 400px;
   }
+  .girl-thinking-container p{
+    font-size: 1em;
+  }
+  .infinite {
+    margin-bottom: 15%;
+  }
   .gym-text-border {
-    padding: 2em 2em;
+    padding: 2em 1em;
+  }
+  .future img{
+    height: 30px;
+  }
+  .common-question {
+    padding: 0 0px;
+    min-width: 300px;
   }
 }
 
@@ -610,7 +707,16 @@ section{
   #sex-drive {
     height: 6em;
   }
+  #ithappened:before{
+    right: 75%;
+  }
+  .choices:before{
+    left: 75%;
+  }
+  .green-bg-3 {
+    height: 575px;
+  }
   .gym-text-border {
-    padding: 1em 1em;
+    padding: 1em 0em;
   }
 }
